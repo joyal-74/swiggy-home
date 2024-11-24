@@ -273,23 +273,24 @@ nav h1{
     height: fit-content;
     border-radius: 16px;
     border: 1px solid rgba(2, 6, 12, 0.08);
-    box-shadow: rgba(27, 30, 36, 0.08) 0px 0px 7.905px
+    box-shadow: rgba(27, 30, 36, 0.08) 0px 0px 7.905px;
 }
 
 .hotels .image-hotels{
-    width: 322px;
+    width: 100%;
     height: 189px;
-    background-size: cover;
-    background-image: url(assets/the-oven.avif);
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 16px 0 0;
+    background-size: 100% 100%;
 }
 .hotels .gradiant-box {
-    width: 326px;
+    width: 100%;
     height: 100% ;
-    border-radius: 16px 16px 0px 0px;
     display: flex;
     color: #ffff;
     align-items: flex-end;
+}
+.hotel-1 .image-hotels {
+    background-image: url(assets/the-oven.avif);
 }
 .hotel-2 .image-hotels {
     background-image: url(assets/fort-kochin.avif);
@@ -328,7 +329,6 @@ nav h1{
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
     justify-content: space-between;
-    border-radius: 16px 16px 0px 0px;
 }
 .price-text {
     display: grid;
